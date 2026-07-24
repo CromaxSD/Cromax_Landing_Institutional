@@ -17,7 +17,7 @@ export function Hero() {
               segment.highlight ? (
                 <mark
                   key={index}
-                  className="box-decoration-clone rounded-sm bg-cromax py-0 text-white"
+                  className="box-decoration-clone rounded-sm bg-cromax leading-none px-1 text-white"
                 >
                   {segment.text}
                 </mark>
