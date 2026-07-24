@@ -12,7 +12,7 @@ export function Hero() {
 
       <div className="container-cromax relative z-10">
         <div className="max-w-3xl">
-          <h1 className="font-display text-page-title font-bold text-white">
+          <h2 className="font-display text-page-title font-bold text-white">
             {hero.title.map((segment, index) =>
               segment.highlight ? (
                 <mark
@@ -25,7 +25,7 @@ export function Hero() {
                 <span key={index}>{segment.text}</span>
               ),
             )}
-          </h1>
+          </h2>
 
           <p className="mt-8 max-w-2xl text-body-lg font-medium text-white/85">{hero.subtitle}</p>
 
